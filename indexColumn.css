@@ -1,0 +1,210 @@
+*{
+  font-family: "Baskerville Old Face", Arial, Times;
+  text-transform: lowercase;
+}
+body{
+  /*background-color: #fff9e6;*/
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2vh;
+}
+
+a:hover{
+  border-bottom: 1px solid black;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5vh;
+  text-align: center;
+  align-items: center;
+  height: 15vh;
+
+}
+
+.title h1{
+  margin: 0;
+}
+
+.title img{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  padding-bottom: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin: 0;
+  padding: 1vh 0;
+  width: 50%;
+  font-size: 3vh;
+  height: 4vh;
+}
+
+@media only screen and (max-width: 800px){
+  .container{
+    font-size: 2vh;
+  }
+}
+
+.container li{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#social-media{
+  margin-left: auto;
+  padding-right: 2%;
+}
+.navbar-item:hover{
+  border-bottom: 1px solid gray;
+}
+.homePage, .aboutPage, .booksPage, .blogPage, .contactPage{
+  width: 50%;
+  padding-top: 10vh;
+  min-height: 59vh;
+}
+
+/*-----------HomePage----------*/
+
+/*-----------Latest----------*/
+.latest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-bottom: 5vh;
+  border-bottom: 2px solid gray;
+  font-size: 2vh;
+  margin: auto;
+}
+
+.latest img{
+  width: 25vh;
+  height: 37.5vh;
+}
+
+.latestInfo{
+  width: 30vh;
+  text-align: center;
+
+
+}
+.latest a:hover{
+  border-bottom: 1px solid gray;
+}
+
+/*-----------End Latest----------*/
+
+/*-----------Author-------------*/
+.author{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-bottom: 5vh;
+  padding-top: 10vh;
+  font-size: 2vh;
+  margin: auto;
+}
+
+.author-item{
+  width: 40vh;
+  text-align: center;
+}
+
+.author img{
+  width: 25vh;
+  height: 25vh;
+}
+
+.author a:hover{
+  border-bottom: 1px solid grey;
+}
+/*-------------End Author------------*/
+
+/*-------------Start AboutPage------------*/
+.aboutInfo{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.aboutInfo h1{
+  text-align: center;
+}
+/*-------------End AboutPage------------*/
+
+/*-------------Start BooksPage------------*/
+.booksInner{
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5vh;
+}
+.booksInner img{
+  width: 30vh;
+  height: 45vh;
+  padding-bottom: 5vh;
+  display: block;
+  margin: 0 auto;
+}
+.booksInner p{
+  width: 100%;
+}
+/*-------------End BooksPage------------*/
+
+/*-------------Start BlogPage------------*/
+.blogPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.blog-post{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  height: 60vh;
+}
+
+/*-------------End BlogPage------------*/
+
+/*-------------Start ContactPage------------*/
+.contactPage{
+  display: flex;
+  justify-content: center;
+}
+.contact-container{
+  width: 100%;
+  text-align: center;
+}
+.contact-item h1{
+  padding: 4vh 0;
+}
+/*-------------End ContactPage------------*/
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkGrey;
+  height: 10vh;
+  width: 100%;
+}
